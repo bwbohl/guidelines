@@ -4,7 +4,7 @@ title: "Document Root Elements"
 version: "v4"
 ---
 
-Typically, the following elements are available for the representation of the outermost structure of an MEI document:
+MEI defines the following elements qualifying as root elements (i.e. the element containing everything else) of an MEI document:
 
 {% include desc elem="mei" %}
 {% include desc atts="att.meiVersion/meiversion" %}
