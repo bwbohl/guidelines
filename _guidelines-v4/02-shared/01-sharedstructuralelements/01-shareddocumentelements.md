@@ -16,9 +16,9 @@ The most straightforward – and probably the most common choice fitting most of
 
 The other potential root elements serve different usecases or purposes.
 
-- a document that contains only metadata, known as an independent or stand-alone header;
 - music notation markup without metadata, typically intended to be embedded within another kind of markup, such as TEI.
 {% include desc elem="meiCorpus" %} contains an {% include link elem="meiHead" %} element describing a collection of related MEI-encoded texts – known as a corpus – and an {% include link elem="mei" %} element for each text. Further information regarding the organization and encoding of music corpora is given in chapter {% include link id="corpus" %}.
 
+A document with {% include desc elem="meiHead" %} as root element only contains metadata and is also known as an independent or stand-alone header. Stand-alone headers are more fully described in chapter {% include link id="headerIndependentHeader" %}.
 
 Inclusion of MEI encodings (partial or complete) inside Text Encoding Initiative (TEI) documents is covered in the TEI Guidelines at [http://www.tei-c.org/release/doc/tei-p5-doc/en/html/FT.html#FTNM](http://www.tei-c.org/release/doc/tei-p5-doc/en/html/FT.html#FTNM){:.link_ref} and by the TEI Music Special Interest Group at [http://www.tei-c.org/SIG/Music/twm/index.html](http://www.tei-c.org/SIG/Music/twm/index.html){:.link_ref}.
