@@ -1,5 +1,5 @@
 ---
 sectionid: sharedStructuralElements
-title: "Structural Elements"
+title: "Main Structural Elements"
 version: "v4"
 ---
