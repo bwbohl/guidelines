@@ -7,7 +7,6 @@ version: "v4"
 MEI defines the following elements qualifying as root elements (i.e. the element containing everything else) of an MEI document:
 
 {% include desc elem="mei" %}
-{% include desc atts="att.meiVersion/meiversion" %}
 {% include desc elem="meiCorpus" %}
 {% include desc elem="meiHead" %}
 {% include desc elem="music" %}
@@ -21,3 +20,8 @@ The other potential root elements serve different usecases or purposes.
 A document with {% include desc elem="meiHead" %} as root element only contains metadata and is also known as an independent or stand-alone header. Stand-alone headers are more fully described in chapter {% include link id="headerIndependentHeader" %}.
 
 While a document with {% include link elem="mei" %} as root element provides music notation markup without metadata, and could serve ebedding MEI within another kind of markup, e.g. TEI (see {% include link id ="tei" %}).
+
+{% include desc atts="att.meiVersion/meiversion" %}
+
+In all of the above cases the {% include link att="meiversion" %} attribute – although not required – is crucial for defining a stable referece to the MEI-version used in the enclosed encoding.
+
