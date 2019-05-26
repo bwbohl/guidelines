@@ -14,7 +14,7 @@ MEI defines the following elements qualifying as root elements (i.e. the element
 
 The most straightforward – and probably the most common choice fitting most of the usecases when encoding music – is the {% include link elem="mei" %} element. It contains an {% include link elem="meiHead" %} element for capturing metadata and a {% include link elem="music" %} element  for describing the musical text. A more detailed description of the application of {% include link elem="music" %} can be found in the course of this section <?TODO ref ?>. If you want to learn more about the use of the {% include link elem="meiHead" %} element – formally declared in the MEI.header module – please visit the chapter {% include link id="header" %} in the {% include link id="metadata" %} section.
 
-Other variations on this basic form are also available for the representation of:
+The other potential root elements serve different usecases or purposes.
 
 - a collection of related MEI-encoded texts, each with its own metadata, known as a corpus;
 - a document that contains only metadata, known as an independent or stand-alone header;
