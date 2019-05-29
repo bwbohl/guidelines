@@ -28,7 +28,7 @@ The below example shows the basic structure of an MEI file with {% include link 
 
 A document with {% include desc elem="meiHead" %} as root element only contains metadata and is also known as an independent or stand-alone header. Stand-alone headers are more fully described in chapter {% include link id="headerIndependentHeader" %}.
 
-While a document with {% include link elem="mei" %} as root element provides music notation markup without metadata, and could serve ebedding MEI within another kind of markup, e.g. TEI (see {% include link id ="tei" %}).
+While a document with {% include link elem="music" %} as root element provides music notation markup without metadata, and could serve ebedding MEI within another kind of markup, e.g. TEI (see {% include link id ="tei" %}).
 
 {% include desc atts="att.meiVersion/meiversion" %}
 
