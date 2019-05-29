@@ -13,7 +13,7 @@ Whether unitary or composite, the musical text is marked with the {% include lin
 {% include desc elem="group" %}
 {% include desc elem="back" %}
 
-Critical editions and collections of works often contain extensive text, such as a title page, table of contents, an introductory essay, commentary, biographical sketch, index, etc. These textual items may appear in either the front or back elements. The front and back elements, available only when the MEI.text module is activated, are described more fully in chapter {% include link id="text" %}.
+Critical editions and collections of works often contain extensive text, such as a title page, table of contents, an introductory essay, commentary, biographical sketch, index, etc. These textual items may appear in either the {% include link elem="front" %} or {% include link elem="back" %} elements. These elements become available only when the MEI.text module is activated, and are being described more fully in chapter {% include link id="text" %}.
 
 The overall structure of a single musical text is:
 
