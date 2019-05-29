@@ -33,6 +33,9 @@ The below example shows the basic structure of an MEI file with {% include link 
 
 While a document with {% include link elem="music" %} as root element provides music notation markup without metadata, and could serve ebedding MEI within another kind of markup, e.g. TEI (see {% include link id ="tei" %}).
 
+The below example shows the basic structure of an MEI file with {% include link elem="music" %} as root element. Basically this already represents a valid MEI file, although without any contents:
+
+{% include mei example="shared/shared-sample0003.xml" valid="yes" %}
 {% include desc atts="att.meiVersion/meiversion" %}
 
 In all of the above cases the {% include link att="meiversion" %} attribute – although not required – is crucial for defining a stable referece to the MEI-version used in the enclosed encoding.
