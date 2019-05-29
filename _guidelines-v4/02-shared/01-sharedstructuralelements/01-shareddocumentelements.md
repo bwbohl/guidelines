@@ -36,7 +36,10 @@ While a document with {% include link elem="music" %} as root element provides m
 The below example shows the basic structure of an MEI file with {% include link elem="music" %} as root element. Basically this already represents a valid MEI file, although without any contents:
 
 {% include mei example="shared/shared-sample0003.xml" valid="yes" %}
+
+The above examples all carry two attributes on their root elements. While the @xmlns is a general feature of XML and not defined in MEI it is crucial for stating the fact, that is is an MEI file you are dealing with. The second attribute is {% include link att="meiversion" %}. 
+
 {% include desc atts="att.meiVersion/meiversion" %}
 
-In all of the above cases the {% include link att="meiversion" %} attribute – although not required – is crucial for defining a stable referece to the MEI-version used in the enclosed encoding.
+Although not required the {% include link att="meiversion" %} attribute is important for defining a stable referece to a specific MEI-version used in the enclosed encoding, and thus is highly recommended on your root element.
 
