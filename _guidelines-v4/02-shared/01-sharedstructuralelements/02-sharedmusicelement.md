@@ -13,10 +13,21 @@ While {% include link elem="body" %} holds the contents of a single musical text
 
 There are several more possible child elements of the {% include link elem="music" %} element defined in other modules of MEI, such as {% include link elem="front" %} and {% include link elem="back" %} elements (defined in MEI.text module, cf. {% include link id="text" %}), {% include link elem="performance" %} (defined in MEI.performance module, cf. {% include link id="performances" %}), {% include link elem="genDesc" %} (defined in MEI.genetic module, cf. {% include link id="genetic" %}), {% include link elem="facsimile" %} (defined in MEI.facsimile module, cf. {% include link id="facsimiles" %}).
 
-The overall structure of a single musical text is:
+Please be aware that the following examples still do not reflect valid MEI files as they are missing some requred elements not defined in the MEI.shared.
 
-{% include mei example="shared/shared-sample000.xml" valid="" %}
+The basic structure of a unitary musical text:
 
-The top-level structure of a composite musical text made up of two unitary musical texts is:
+{% include mei example="shared/shared-sample000.xml" valid="no" %}
 
-{% include mei example="shared/shared-sample001.xml" valid="" %}
+Examples of composite texts which may be represented using the {% include link elem="group" %} element include anthologies and other collections. The presence of common front matter referring to the whole collection, possibly in addition to front matter relating to each individual musical text, is a good indication that a given musical text might usefully be encoded in this way.
+
+
+For example, the overall structure of a collection of songs might be encoded as follows:
+
+{% include mei example="shared/shared-sample002.xml" valid="" %}
+
+A group of musical texts may contain other unitary and grouped texts:
+
+{% include mei example="shared/shared-sample003.xml" valid="" %}
+
+The {% include link elem="group" %} element may be used to encode any kind of collection in which the constituents are regarded by the encoder as works in their own right, such as *ad hoc* single- or multiple-composer collections or anthologies of works not originally conceived of as a single composition.
