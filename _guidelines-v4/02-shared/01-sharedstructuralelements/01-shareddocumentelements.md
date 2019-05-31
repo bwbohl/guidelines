@@ -19,13 +19,13 @@ The below example shows the basic structure of an MEI file with {% include link 
 
 The other potential root elements serve different usecases or purposes.
 
-{% include desc elem="meiCorpus" %} contains an {% include link elem="meiHead" %} element describing a collection of related MEI-encoded texts – known as a corpus – and an {% include link elem="mei" %} element for each text. Further information regarding the organization and encoding of music corpora is given in chapter {% include link id="corpus" %}.
+{% include link elem="meiCorpus" %} contains an {% include link elem="meiHead" %} element describing a collection of related MEI-encoded texts – known as a corpus – and an {% include link elem="mei" %} element for each text. Further information regarding the organization and encoding of music corpora is given in chapter {% include link id="corpus" %}.
 
 The below example shows the basic structure of an MEI file with {% include link elem="meiCorpus" %} as root element. Please be aware that this example still does not represent a valid MEI file:
 
 {% include mei example="shared/shared-sample0001.xml" valid="no" %}
 
-A document with {% include desc elem="meiHead" %} as root element only contains metadata and is also known as an independent or stand-alone header. Stand-alone headers are more fully described in chapter {% include link id="headerIndependentHeader" %}.
+A document with {% include link elem="meiHead" %} as root element only contains metadata and is also known as an independent or stand-alone header. Stand-alone headers are more fully described in chapter {% include link id="headerIndependentHeader" %}.
 
 The below example shows the basic structure of an MEI file with {% include link elem="meiHead" %} as root element. Please be aware that this example still does not represent a valid MEI file:
 
