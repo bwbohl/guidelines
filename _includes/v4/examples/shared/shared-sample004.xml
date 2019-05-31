@@ -1,16 +1,16 @@
 <body xmlns="http://www.music-encoding.org/ns/mei">
    <mdiv type="symphony">
       <mdiv n="1" type="movement">
-         <!-- contents of mvt 1 -->
+         <!-- contents of first movement -->
       </mdiv>
       <mdiv n="2" type="movement">
-         <!-- contents of mvt 2 -->
+         <!-- contents of second movement -->
       </mdiv>
       <mdiv n="3" type="movement">
-         <!-- contents of mvt 3 -->
+         <!-- contents of third movement -->
       </mdiv>
       <mdiv n="4" type="movement">
-         <!-- contents of mvt 4 -->
+         <!-- contents of fourth movement -->
       </mdiv>
    </mdiv>
 </body>
