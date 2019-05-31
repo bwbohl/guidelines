@@ -8,12 +8,11 @@ MEI texts may be regarded either as unitary; that is, forming an organic whole, 
 
 Whether unitary or composite, the musical text is marked with the {% include link elem="music" %} tag and may contain front matter, a body, and back matter. In unitary texts, the body is tagged using the {% include link elem="body" %} element; in composite texts, however, where the textual body consists of a series of subordinate musical texts or other groups, it is tagged with the {% include link elem="group" %} element. The overall structure of any musical text, unitary or composite, is thus defined by the following elements:
 
-{% include desc elem="front" %}
 {% include desc elem="body" %}
 {% include desc elem="group" %}
-{% include desc elem="back" %}
 
-Critical editions and collections of works often contain extensive text, such as a title page, table of contents, an introductory essay, commentary, biographical sketch, index, etc. These textual items may appear in either the {% include link elem="front" %} or {% include link elem="back" %} elements. These elements become available only when the MEI.text module is activated, and are being described more fully in chapter {% include link id="text" %}.
+
+There are several more possible child elements of the {% include link elem="music" %} element defined in other modules of MEI, such as {% include link elem="front" %} and {% include link elem="back" %} elements (defined in MEI.text module, cf. {% include link id="text" %}), {% include link elem="performance" %} (defined in MEI.performance module, cf. {% include link id="performances" %}), {% include link elem="genDesc" %} (defined in MEI.genetic module, cf. {% include link id="genetic" %}), {% include link elem="facsimile" %} (defined in MEI.facsimile module, cf. {% include link id="facsimiles" %}).
 
 The overall structure of a single musical text is:
 
