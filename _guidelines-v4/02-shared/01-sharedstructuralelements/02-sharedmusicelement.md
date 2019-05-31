@@ -1,6 +1,6 @@
 ---
 sectionid: sharedMusicElement
-title: "General Music Elements"
+title: "General Music Structure Elements"
 version: "v4"
 ---
 
