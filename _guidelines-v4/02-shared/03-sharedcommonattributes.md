@@ -68,5 +68,5 @@ att.linking/prev
 att.linking/sameas
 att.linking/synch" %}
 
-
+For a detailed description of linking mechanisms used in MEI also see the section on {% include link id="linkingdata" %}.
 
