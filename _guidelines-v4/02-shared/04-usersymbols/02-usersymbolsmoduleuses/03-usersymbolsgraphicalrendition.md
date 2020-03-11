@@ -7,7 +7,9 @@ version: "v4"
 Usersymbols can define the rendition of different elements in two ways. Some elements, for example {% include link elem="dir" %} and {% include link elem="tempo" %}, can have user symbol elements as content. In the following example, the content of {% include link elem="dir" %} is used to provide pictograms of percussion instruments.
 
 {% include figure img="modules/usersymbols/percussion.png" caption="Indicating percussion instruments using pictograms" %}
-{% include figure img="" caption="Encoding of above example" %}
+
+The corresponding encoding would be as follows:
+{% include mei example="usersymbols/usersymbols-sample348.xml" valid="true" %}
 
 A number of elements can point to an internally-defined symbol for rendering using the **@altsym** attribute.
 
