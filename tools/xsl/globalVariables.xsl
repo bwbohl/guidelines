@@ -30,7 +30,7 @@
     <xsl:variable name="guidelines.references">
         <xsl:variable name="file.path" select="substring-before(document-uri(),'/tools/')"/>
         
-        <xsl:for-each select="for $filename in uri-collection($file.path || '/_guidelines-' || $guidelines.version || '/?select=*.md;recurse=yes') return $filename">
+        <xsl:for-each select="for $filename in uri-collection($file.path || '/_guidelines-' || $guidelines.version || '/?select=*.md;recurse=yes;unparsed=yes') return $filename">
             <!--<xsl:variable name="file.content" select="normalize-space(saxon:base64Binary-to-string(.,'UTF-8'))" as="xs:string"/>-->
             <xsl:variable name="full.path" select="string(.)" as="xs:string"/>
             <xsl:variable name="relevant.path" select="substring-after($full.path,$file.path || '/_guidelines-' || $guidelines.version || '/')" as="xs:string"/>
